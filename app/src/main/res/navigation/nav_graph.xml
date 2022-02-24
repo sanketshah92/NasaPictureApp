@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nasaImageGridFragment">
+
+    <fragment
+        android:id="@+id/nasaImageGridFragment"
+        android:name="com.sanket.nasapictureapp.presentation.ui.NasaImageGridFragment"
+        android:label="fragment_nasa_image_grid"
+        tools:layout="@layout/fragment_nasa_image_grid" />
+</navigation>
