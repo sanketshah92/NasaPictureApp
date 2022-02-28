@@ -1,8 +1,11 @@
 package com.sanket.nasapictureapp.data.model
 
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.parcelize.Parcelize
 
+@Parcelize
 data class NasaImageDataItem(
     @SerializedName("copyright")
     val copyright: String,
@@ -20,4 +23,4 @@ data class NasaImageDataItem(
     val title: String,
     @SerializedName("url")
     val url: String
-)
+) : Parcelable

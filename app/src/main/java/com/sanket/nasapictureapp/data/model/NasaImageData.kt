@@ -1,3 +1,7 @@
 package com.sanket.nasapictureapp.data.model
 
-class NasaImageData : ArrayList<NasaImageDataItem>()
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
+class NasaImageData : ArrayList<NasaImageDataItem>(), Parcelable

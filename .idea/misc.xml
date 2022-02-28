@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.2890625" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.29008341056533826" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_nasa_image_detail.xml" value="0.1203125" />
         <entry key="app/src/main/res/layout/fragment_nasa_image_grid.xml" value="0.1766304347826087" />
         <entry key="app/src/main/res/layout/image_layout.xml" value="0.21331521739130435" />
+        <entry key="app/src/main/res/layout/item_nasa_item_detail.xml" value="0.16614583333333333" />
       </map>
     </option>
   </component>

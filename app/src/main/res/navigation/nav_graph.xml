@@ -7,7 +7,23 @@
 
     <fragment
         android:id="@+id/nasaImageGridFragment"
-        android:name="com.sanket.nasapictureapp.presentation.ui.NasaImageGridFragment"
+        android:name="com.sanket.nasapictureapp.presentation.ui.fragments.NasaImageGridFragment"
         android:label="fragment_nasa_image_grid"
-        tools:layout="@layout/fragment_nasa_image_grid" />
+        tools:layout="@layout/fragment_nasa_image_grid">
+        <action
+            android:id="@+id/action_nasaImageGridFragment_to_nasaImageDetailsFragment"
+            app:destination="@id/nasaImageDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nasaImageDetailsFragment"
+        android:name="com.sanket.nasapictureapp.presentation.ui.fragments.NasaImageDetailsFragment"
+        android:label="NasaImageDetailsFragment"
+        tools:layout="@layout/fragment_nasa_image_detail">
+        <argument
+            android:name="imageData"
+            app:argType="com.sanket.nasapictureapp.data.model.NasaImageDataItem[]" />
+        <argument
+            android:name="startPost"
+            app:argType="integer" />
+    </fragment>
 </navigation>
